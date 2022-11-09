@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+#container{
+    height: auto;
+    margin: auto;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/*#navbar>.first-nav_div,#navbar>.second-nav_div{
+    display: flex;
+    justify-content: space-evenly;
+}*/
+.first-nav_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.second-nav_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.img{
+    width: 20%;
+}
+
+.btn{
+    background-color: orange;
+    padding: 3px;
+    
+    
+}
+
+#mid-section1{
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.Btn{
+    background-color: #04AA6D;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+#mid-section2{
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+    height: 300px;
+    background-color:#f7f7f7; ;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+#mid-section3{
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+#mid-section3>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#mid-section3>div>img{
+    width: 120px;
+}
+
+#mid-section4{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#mid-section4>div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: auto;
+    border: 0px solid red;
+    margin: auto;
+}
+
+.child-MS4>div:nth-child(1){
+    width: 30%;
+    height: 250px;
+    border: 0px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px;
+}
+
+.child-MS4>div:nth-child(2){
+    width: 30%;
+    height: 250px;
+    border: 0px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px;
+}
+
+.child-MS4>div:nth-child(3){
+    width: 30%;
+    height: 250px;
+    border: 0px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px;
+}
+
+#flag {
+      width: 100%;
+      height: 40px;
+      box-sizing: content-box;
+      padding-top: 15px;
+      position: relative;
+      background:#04AA6D ;
+      color: white;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+   
+  .p{
+    font-size: 10px;
+  }
+
+  #Flag{
+    width: 100%;
+      height: 40px;
+      box-sizing: content-box;
+      padding-top: 15px;
+      position: relative;
+      background:#000066 ;
+      color: white;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  #teeranga{
+    width: 100%;
+      height: 40px;
+      box-sizing: content-box;
+      padding-top: 15px;
+      position: relative;
+      background: #660066 ;
+      color: white;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  .Blue{
+    background-color: #000066;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 0px;
+  }
+
+  .purple{
+      background: #660066 ;
+    
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 0px;
+  }
+
+  #mid-section5{
+    background-image: url(https://prod.smassets.net/assets/cms/sm/uploads//AudienceBG-NEW.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .five{
+    background: white ;
+    
+    border: 0px;
+    padding: 10px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  #mid-section6{
+   text-align: center;
+   margin: auto;
+   margin-top: 100px;
+  }
+
+  .child-MS6{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .img6{
+    width: 80%;
+  }
+
+  #mid-section7{
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color:#f7f7f7 ;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .child-MS7{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .child-MS7>div{
+    width: 30%;
+    height: 200px;
+  }
+
+  .img7{
+    width: 50%;
+  }
+
+  .btn7{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+    
+  }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="navbar">
+            <div class="first-nav_div">
+                
+              <img class="img" src="https://prod.smassets.net/assets/website/2.192.0/images/logo-surveymonkey.svg"/>
+              <h6>Survey Template</h6>
+              <h6>Features</h6>
+              <h6>Solutions</h6> 
+                
+            </div>
+
+            <div class="second-nav_div">
+                <h6>Plans&Pricing</h6>
+                <h6>Help&Support</h6>
+                <h6>Company</h6>
+                <h6>Log in</h6>
+                <h6 class="btn">Sign up free</h6>
+                
+
+            </div>
+        </div>
+
+        <div id="mid-section1">
+
+            <p>A global leader in survey software. 20 million questions answered daily.</p>
+            <button class="Btn">Get Started</button>
+
+        </div>
+
+        <div id="mid-section2">
+            <h3>Who is your survey audience?</h3>
+            <div class="child-mid-div">
+             <button></button>
+             <button></button>
+             <button></button>
+             <button></button>
+            </div>
+        </div>
+
+        <div id="mid-section3">
+         <h5>Join more than 17 million active users worldwide</h5>
+         <div>
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//Allbirds-slate.png" alt="">
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//Tweezerman-logo-2x.png" alt="">
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//Adobe-logo-2x.png" alt="">
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//Verizon-logo-2x.png" alt="">
+            <img src="https://prod.smassets.net/assets/cms/sm/uploads//sephora-logo.png" alt="">
+         </div>
+        </div>
+
+        <div id="mid-section4">
+            <h3>Choose a plan that works for you</h3>
+            <p>Get an individual plan with features that you need, or create a team instead!</p>
+
+            <div class="child-MS4">
+                <div>
+                    <div id="flag">Basic</div>
+                    <h3>0</h3>
+                    <p class="p">Always Free</p></br>
+                    <button class="Btn">Sign up</button>
+                </br>
+                    <p class="p">Send unlimited surveys with up to 10 questions. Response limits apply.</p>
+
+                </div>
+
+                <div>
+                    <div id="Flag">Basic</div>
+                    <h3>₹1,999</h3>
+                    <p class="p">/month</p>
+                    <p class="p">Billed ₹23,988 annually</p>
+                    <button class="Blue">See all features</button>
+                </br>
+                    <p class="p">Get our most popular features for creating, sending & analyzing surveys.</p>
+
+                </div>
+
+                <div>
+                    <div id="teeranga">Basic</div>
+                    <h3>₹1,550</h3>
+                    <p class="p">per user/month</p>
+                    <p class="p">Starting at 3 users, billed annually</p>
+                    <button class="purple">See all features</button>
+                </br>
+                    <p class="p">Collaboration tools and survey features that help your team work more efficiently.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="mid-section5">
+            <h5>Looking for targeted responses to your surveys?</h5>
+            <h5>Get the responses you need in minutes with SurveyMonkey Audience, our trusted panel</h5>
+            <h5>of more than 175 million respondents from across the globe.</h5>
+            <button class="five">learn more</button>
+        </div>
+
+        <div id="mid-section6">
+            <h2>Tools that spark business breakthroughs</h2></br>
+            <p class="p">Discover specialized toolkits designed for your role and industry.</p>
+
+            <div class="child-MS6">
+
+                <div>
+              <img class="img6"src="https://prod.smassets.net/assets/cms/sm/uploads//customer-support-toolkit-directory.png"/>
+              <h3>Customer support</h3>
+              <p class="p">Provide better customer experiences while keeping your teams engaged.</p>
+              <a href="https://www.surveymonkey.com/toolkit/customer-support/">Learn more</a>
+
+                </div>
+
+                <div>
+                    <img class="img6"src="https://prod.smassets.net/assets/cms/sm/uploads//hr-leader-toolkit-directory.png"/>
+                    <h3>Human resources</h3>
+                    <p class="p">Retain your workforce by fostering a world-class employee experience.</p>
+                    <a href="https://www.surveymonkey.com/toolkit/customer-support/">Learn more</a>
+                </div>
+
+                <div>
+                    <img class="img6" src="https://prod.smassets.net/assets/cms/sm/uploads//product-manager-toolkit-directory.png"/>
+                    <h3>Product management</h3>
+                    <p class="p">Build products that drive impact and offer a strong product-market fit.</p>
+                    <a href="https://www.surveymonkey.com/toolkit/customer-support/">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="mid-section7">
+            <h3>Go beyond collecting feedback—deliver better</h3>
+            <h3>experiences that drive your business</h3>
+        </br>
+        <div class="child-MS7">
+            <div>
+                <img class="img7"src="https://prod.smassets.net/assets/cms/sm/uploads//Momentive-Symbol-RGB-1-1.png"/>
+                <h4>Momentive Solutions</h4>
+                <p class="p">Get a platform that can grow and change along with your survey needs over time. Browse our plans to learn more about specific features.</p>
+                <button class="btn7">Visit Momentive</button>
+            </div>
+
+
+            <div>
+                <img class="img7"src="https://prod.smassets.net/assets/cms/sm/uploads//gfp-logo-rgb-2x-1.png"/>
+                <h4>GetFeedback</h4>
+                <p class="p">Manage your company’s data with advanced security and control, so you can enable your teams to share and collaborate safely.</p>
+                <button class="btn7">GetFeedback</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
