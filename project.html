@@ -72,6 +72,26 @@
     text-align: center;
     padding: 3px;
 }
+
+.btn2{
+    border: 0px;
+    font-size: 8px;
+    font-weight: bold;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20%;
+    height: 30px;
+}
+
+.img2{
+    width: 60%;
+}
+
+.P{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
 #mid-section3{
     text-align: center;
     margin-top: 200px;
@@ -214,6 +234,22 @@
     border-radius: 5px;
   }
 
+  #mid-section51{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .child-mid-div51{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  .img51{
+    width: 70%;
+  }
+
   #mid-section6{
    text-align: center;
    margin: auto;
@@ -261,6 +297,38 @@
     padding: 3px;
     
   }
+
+  #mid-section8{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #child-MS8{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+  .img8{
+    width: 80%;
+  }
+
+  #mid-section9{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #child-mid-div9{
+    background-color: rgb(237, 251, 251);
+    text-align: left;
+    margin-top: 30px;
+  }
+  .pa{
+    color: gray;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: sans-serif;
+  }
     </style>
 </head>
 <body>
@@ -288,7 +356,7 @@
         </div>
 
         <div id="mid-section1">
-
+            <p class="P">Will my Product Success or Flop?</p>
             <p>A global leader in survey software. 20 million questions answered daily.</p>
             <button class="Btn">Get Started</button>
 
@@ -297,10 +365,15 @@
         <div id="mid-section2">
             <h3>Who is your survey audience?</h3>
             <div class="child-mid-div">
-             <button></button>
-             <button></button>
-             <button></button>
-             <button></button>
+             <button class="btn2">Employee</button>
+             <button class="btn2">Customer</button>
+             <button class="btn2">Target Markets</button>
+             <button class="btn2">Others</button>
+            </div>
+
+            <div class="child-mid-div2">
+                
+                <img class="img2" src="https://prod.smassets.net/assets/cms/sm/uploads//SurveyTemplate_Hero.gif"/>
             </div>
         </div>
 
@@ -361,6 +434,24 @@
             <button class="five">learn more</button>
         </div>
 
+        <div id="mid-section51">
+            <h2>Start with an expert-written template</h2>
+            <p class="p">Our sample survey templates make it easy for you to start collecting feedback in</p>
+            <p class="p">just minutes. Explore hundreds of questions across different survey types, all</p>
+            <p class="p">designed to get you accurate results you can rely on.</p>
+
+            <div class="child-mid-div51">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//customer-satisfaction-survey-template-1.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//Product-Survey.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//360-Degree-Employee-Evaluation.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//product-testing-survey-template.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//employee-engagement-survey-template.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//customer-service-survey-template.png" alt="">
+                <img class="img51" src="https://prod.smassets.net/assets/cms/sm/uploads//Website_surveys.png" alt="">
+            </div>
+        </div>
+
         <div id="mid-section6">
             <h2>Tools that spark business breakthroughs</h2></br>
             <p class="p">Discover specialized toolkits designed for your role and industry.</p>
@@ -411,6 +502,55 @@
                 <button class="btn7">GetFeedback</button>
             </div>
         </div>
+        </div>
+
+        <div id="mid-section8">
+            <h3>Still curious?</h3></br>
+            <p class="p">Explore these additional resources to help you launch successful survey projects.</p>
+        </br>
+            <div id="child-MS8">
+                <div>
+               <img class="img8" src="https://prod.smassets.net/assets/cms/sm/uploads//golden-state-warriors.png"/>
+               <h6>Success Stories</h6>
+               <p class="p">Read about our customers, explore our </p>
+               <p class="p">webinars, and get guides on collecting</p>
+               <p class="p">feedback in your industry.</p>
+               <a href="https://www.surveymonkey.com/resources/">Explore resources</a>
+                </div>
+
+                <div>
+                    <img class="img8" src="https://prod.smassets.net/assets/cms/sm/uploads//blog-tile-card.png"/>
+                    <h6>Success Stories</h6>
+                    <p class="p">Read about our customers, explore our </p>
+                    <p class="p">webinars, and get guides on collecting</p>
+                    <p class="p">feedback in your industry.</p>
+               <a href="https://www.surveymonkey.com/resources/">Explore resources</a>
+                </div>
+
+                <div>
+                    <img class="img8" src="https://prod.smassets.net/assets/cms/sm/uploads//help-center-tile.png"/>
+                    <h6>Success Stories</h6>
+                    <p class="p">Read about our customers, explore our </p>
+               <p class="p">webinars, and get guides on collecting</p>
+               <p class="p">feedback in your industry.</p>
+               <a href="https://www.surveymonkey.com/resources/">Explore resources</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="mid-section9">
+            <p class="p">Net Promoter, Net Promoter System, Net Promoter Score, NPS and the NPS-related emoticons are registered</p>
+            <p class="p">trademarks of Bain & Company, Inc., Fred Reichheld and Satmetrix Systems, Inc.</p>
+
+            <div id="child-mid-div9">
+                <p class="pa">community:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developers.Facebook.Twitter.Linkedin.Our Blog.Instagram.Youtube</p>
+            </br>
+            <p class="pa">About us:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leadership team.Board of directors.investor relation.App directory.Newsroom.Office Location.Imprint.Careers.Sitemap</p>
+        </br>
+        <p class="pa">Policies:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Term of Use.Policy Notice.California Policy Notice.Acceptable uses Policy.Security Statement.GDPR Complience.Email-opt-in.Accessibility.Cookies Notice</p>
+    </br>
+    <p class="pa">Use Cases:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Online Polls.Facebook Survey.Survey Template.360 Deegri Feedback</p>
+            </div>
         </div>
     </div>
 </body>
